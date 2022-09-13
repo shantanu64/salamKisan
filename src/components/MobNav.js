@@ -39,7 +39,7 @@ export default function MobNav() {
             </div>
             <ul className="flex flex-col items-center justify-between">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/home">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/aboutUs">About Us</a>

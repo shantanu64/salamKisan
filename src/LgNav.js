@@ -9,7 +9,7 @@ const LgNav = () => {
           <img src="logo.png" className="w-32" />
         </div>
         <div className="flex flex-row items-center justify-around w-3/5 font-light">
-          <NavLink to={"/home"}>
+          <NavLink to={"/"}>
             <button className="">Home</button>
           </NavLink>
           <NavLink to={"/aboutUs"}>
