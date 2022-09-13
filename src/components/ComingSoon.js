@@ -11,7 +11,7 @@ const ComingSoon = () => {
       </div>
       <div>
         <div className="mb-16">
-          <Link to={"/home"}>
+          <Link to={"/"}>
             <button
               style={{
                 background:
