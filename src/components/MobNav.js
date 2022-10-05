@@ -6,7 +6,7 @@ export default function MobNav() {
   return (
     <div className="flex items-center w-full justify-between border-b border-gray-400 py-2 px-4">
       <a href="/">
-        <img src="logo.png" className="w-24" alt="logo" />
+        <img src="logo_typo.png" className="w-32" alt="logo" />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -45,8 +45,11 @@ export default function MobNav() {
                 <a href="/aboutUs">About Us</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/services">Services</a>
+                <a href="/ourTeam">Our Team</a>
               </li>
+              {/* <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/industries">Industries</a>
+              </li> */}
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/news">News</a>
               </li>

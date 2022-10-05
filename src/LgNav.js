@@ -6,7 +6,7 @@ const LgNav = () => {
     <>
       <div className=" flex flex-row items-center justify-between px-6 h-20 bg-transparent w-full">
         <div className="w-1/5">
-          <img src="logo.png" className="w-32" />
+          <img src="logo_typo.png" className="w-42" />
         </div>
         <div className="flex flex-row items-center justify-around w-3/5 font-light">
           <NavLink to={"/"}>
@@ -15,9 +15,12 @@ const LgNav = () => {
           <NavLink to={"/aboutUs"}>
             <button className="">About Us</button>
           </NavLink>
-          <NavLink to={"/services"}>
-            <button className="">Services</button>
+          <NavLink to={"/ourTeam"}>
+            <button className="">Our Team</button>
           </NavLink>
+          {/* <NavLink to={"/industries"}>
+            <button className="">Industries</button>
+          </NavLink> */}
           <NavLink to={"/news"}>
             <button className="">News</button>
           </NavLink>

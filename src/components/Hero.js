@@ -17,13 +17,13 @@ const Hero = () => {
           </h1>
           <div className="text-center md:w-4/6">
             <p className="font-light mx-auto w-3/4 md:w-full text-sm text-left md:text-center md:text-xl ">
-              Salam Kisan is an agricultural ecosystem providing a centralised
-              end-to-end solution for all stakeholders in the agriculture
-              ecosystem. We aim to provide everything in the entire agriculture
-              value chain.
+              Salam Kisan is a data-driven agriculture ecosystem providing
+              centralized solutions for stakeholders in the agriculture
+              ecosystem.
               <br />
-              Salam Kisan is a new turn in the lives of farmers to increase
-              yield efficiency, increase productivity and profitability.
+              <p className="mt-8 font-bold">
+              Welcome the new era of agriculture.
+              </p>
             </p>
           </div>
         </div>

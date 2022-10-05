@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const OurTeam = () => {
   return (
@@ -7,46 +8,75 @@ const OurTeam = () => {
         <h1 className="text-5xl text-center font-semibold">Our Team</h1>
       </div>
       <div className="flex flex-wrap gap-7 px-2 w-full justify-center mx-auto">
-        <div className="w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
-          <div className="">
-            <img src="wc-1.png" className="rounded-full" />
+        <a
+          target={"_blank"}
+          href={"https://www.linkedin.com/in/dhanashri-mandhani-978aa9200/"}
+        >
+          <div className="hover:shadow-2xl rounded-xl py-2 w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
+            <div className="w-40 h-40">
+              <img
+                src="dhanashree.jpeg"
+                className="h-full w-full rounded-full"
+              />
+            </div>
+            <div className="text-center text-xl w-4/5">
+              <h1 className="font-bold">Ms. Dhanashree Mandhani</h1>
+              <p className="font-light">CEO, Founder and Managing Director</p>
+              <p className="mt-2"></p>
+            </div>
           </div>
-          <div className="text-center text-xl w-4/5">
-            <h1 className="font-bold">Ms. Dhanashree Mandhani</h1>
-            <p className="font-light">CEO</p>
-            <p className="mt-2"></p>
+        </a>
+        <a
+          target={"_blank"}
+          href={"https://www.linkedin.com/in/akshaykhobragade"}
+        >
+          <div className="hover:shadow-2xl rounded-xl py-2 w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
+            <div className="w-40 h-40">
+              <img
+                src="akshay.jpg"
+                className="h-full w-full rounded-full"
+              />
+            </div>
+            <div className="text-center text-xl w-4/5">
+              <h1 className="font-bold">Mr. Akshay Khobragade</h1>
+              <p className="font-light">Chief Operating Officer</p>
+              <p className="mt-2"></p>
+            </div>
           </div>
-        </div>
-        <div className="w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
-          <div className="">
-            <img src="wc-1.png" className="rounded-full" />
+        </a>
+        <a
+          target={"_blank"}
+          href={"https://www.linkedin.com/in/dhanashri-mandhani-978aa9200/"}
+        >
+          <div className="hover:shadow-2xl rounded-xl py-2 w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
+            <div className="w-40 h-40">
+              <img
+                src="pradhyumn.jpeg"
+                className="rounded-full h-full w-full"
+              />
+            </div>
+            <div className="text-center text-xl w-4/5">
+              <h1 className="font-bold">Mr. Pradhyumn Mandhani</h1>
+              <p className="font-light">Managing Director</p>
+              <p className="mt-2"></p>
+            </div>
           </div>
-          <div className="text-center text-xl w-4/5">
-            <h1 className="font-bold">Mr. Akshay Khobragade</h1>
-            <p className="font-light">COO</p>
-            <p className="mt-2"></p>
+        </a>
+        <a
+          target={"_blank"}
+          href={"https://www.linkedin.com/in/vanshika-nyati-548920201/"}
+        >
+          <div className="hover:shadow-2xl rounded-xl py-2 w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
+            <div className="w-40 h-40">
+              <img src="vanshika.jpeg" className="rounded-full h-full w-full" />
+            </div>
+            <div className="text-center text-xl w-4/5">
+              <h1 className="font-bold">Ms. Vaishnavi Niyati</h1>
+              <p className="font-light">Development Head</p>
+              <p className="mt-2"></p>
+            </div>
           </div>
-        </div>
-        <div className="w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
-          <div className="">
-            <img src="wc-1.png" className="rounded-full" />
-          </div>
-          <div className="text-center text-xl w-4/5">
-            <h1 className="font-bold">Mr. Pradhyumn Mandhani</h1>
-            <p className="font-light">Legal</p>
-            <p className="mt-2"></p>
-          </div>
-        </div>
-        <div className="w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
-          <div className="">
-            <img src="wc-1.png" className="rounded-full" />
-          </div>
-          <div className="text-center text-xl w-4/5">
-            <h1 className="font-bold">Ms. Vaishnavi Niyati</h1>
-            <p className="font-light">Development Head</p>
-            <p className="mt-2"></p>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );
