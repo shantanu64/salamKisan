@@ -72,7 +72,7 @@ const OurTeam = () => {
             </div>
             <div className="text-center text-xl w-4/5">
               <h1 className="font-bold">Ms. Vanshika Nyati</h1>
-              <p className="font-light">Development Head</p>
+              <p className="font-light">Business Development Head</p>
               <p className="mt-2"></p>
             </div>
           </div>
