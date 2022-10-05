@@ -46,7 +46,7 @@ const OurTeam = () => {
         </a>
         <a
           target={"_blank"}
-          href={"https://www.linkedin.com/in/dhanashri-mandhani-978aa9200/"}
+          href={"https://www.linkedin.com/in/praduymn-m-322107123/"}
         >
           <div className="hover:shadow-2xl rounded-xl py-2 w-80 md:w-72 xl:w-80 flex flex-col gap-6 items-center">
             <div className="w-40 h-40">
@@ -56,7 +56,7 @@ const OurTeam = () => {
               />
             </div>
             <div className="text-center text-xl w-4/5">
-              <h1 className="font-bold">Mr. Pradhyumn Mandhani</h1>
+              <h1 className="font-bold">Mr. Praduymn Mandhani</h1>
               <p className="font-light">Managing Director</p>
               <p className="mt-2"></p>
             </div>
