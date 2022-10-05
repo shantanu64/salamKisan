@@ -71,7 +71,7 @@ const OurTeam = () => {
               <img src="vanshika.jpeg" className="rounded-full h-full w-full" />
             </div>
             <div className="text-center text-xl w-4/5">
-              <h1 className="font-bold">Ms. Vaishnavi Nyati</h1>
+              <h1 className="font-bold">Ms. Vanshika Nyati</h1>
               <p className="font-light">Development Head</p>
               <p className="mt-2"></p>
             </div>
